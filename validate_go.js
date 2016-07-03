@@ -183,6 +183,7 @@ if (current_color)
 
     if (isThreeThree_index >=2 && isThreeThree_index <4)
     {
+        console.log('parallel_check:'+parallel_check)
         if (parallel_check.isUniqueList()) // list가 unique하면 평행하지 않음 
         {   
             return true
