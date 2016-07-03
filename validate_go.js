@@ -198,6 +198,10 @@ if (current_color)
     {
         return true
     }
+    else if (isThreeThree_index == 6)
+    {
+        return true
+    }
     else if (isFourFour_index >=2)
     {
         return true
