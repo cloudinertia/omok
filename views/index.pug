@@ -1,4 +1,13 @@
 extends layout
 
 block content
-  h1= title
+    h1= title
+
+    ul(id="messages")
+
+    form(action="")
+        input(id='m' autocomplete="off")
+        button.
+            send
+
+
